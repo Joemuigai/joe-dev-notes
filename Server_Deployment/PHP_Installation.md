@@ -2,12 +2,29 @@
 
 This guide will help you install PHP 8.4 and the necessary extensions on a Linux system.
 
+## Uninstall Previous PHP Versions
+
+If you have an older version of PHP installed on your system, you should uninstall it before proceeding with the installation of PHP 8.4.
+
+```sh
+sudo apt-get purge php*.*
+```
+
+After uninstalling the previous PHP version, you can clean up the system by running the following commands:
+
+```sh
+sudo apt-get autoremove
+sudo apt-get autoclean
+```
+
+## Install PHP 8.4
+
 ## Step 1: Add PHP Repository
 
 First, add the repository that contains the PHP packages:
 
 ```sh
-sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository ppa:ondrej/apache2
 ```
 
 ## Step 2: Update Package List
@@ -53,6 +70,7 @@ Alternatively, you can check the PHP version from the command line:
 ```sh
 php -v
 ```
+
 
 You should see the PHP version displayed in the output.
 

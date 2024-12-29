@@ -2,6 +2,8 @@
     "cSpell.words": [
         "bcmath",
         "ctype",
+        "flysystem",
+        "Flysystem",
         "mbstring",
         "ondrej",
         "pcntl"
