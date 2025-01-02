@@ -48,7 +48,7 @@ sudo apt-get install php8.4
 Install the necessary PHP extensions for your project. Here are some common extensions:
 
 ```sh
-sudo apt-get install libapache2-mod-php8.4 php8.4-bcmath php8.4-mbstring php8.4-mysql php8.4-xml php8.4-zip php8.4-curl php8.4-gd php8.4-redis php8.4-intl php8.4-soap
+sudo apt-get install libapache2-mod-php8.4 php8.4-bcmath php8.4-mbstring php8.4-mysql php8.4-pgsql php8.4-xml php8.4-zip php8.4-curl php8.4-gd php8.4-redis php8.4-intl php8.4-soap
 ```
 
 ## Step 5: Verify Installation
